@@ -1,0 +1,111 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #022044
+    
+  }
+  
+  .products {
+    width: 90%;
+    margin: 0 auto;
+    color: rgb(202, 188, 188);;
+  }
+  
+    .products__title {
+      text-align: center;
+    }
+  
+    .products__inner {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .cards {
+      width: 300px;
+      margin: 30px; 
+      padding: 20px;
+      background-color: rgb(1, 12, 34);
+      border-radius: 10px;
+      -webkit-box-shadow: 4px 4px 8px 0px rgba(38, 197, 141, 0.35);
+      -moz-box-shadow: 4px 4px 8px 0px rgba(38, 197, 141, 0.35);
+      box-shadow: 4px 4px 8px 0px rgba(38, 197, 141, 0.35);     
+    }
+  
+    .products__item-photo {
+      width: 100%;
+      height: 180px;
+      margin-bottom: 25px;
+      object-fit: contain;
+      border-radius: 5px;
+    }
+  
+    .products__item-info {
+        min-height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 5px;
+        border-bottom: 2px solid #ccc;
+      }
+
+      .products__price{
+          color: #07a772;
+      }
+
+      h2{
+        color: rgb(194, 189, 189);
+      }  
+
+
+
+      h3 {
+        margin: 0;
+        font-size: 15px;
+      }
+    
+  
+    .products__item-text {
+      font-size: 15px;
+      line-height: 1.4;
+    }
+
+    .products__filters{
+      margin: 0 auto;
+      text-align: center;
+      
+      
+    }
+
+    .products__filter-btn{
+      padding: 10px;
+      width: 150px;
+      border-radius: 10px;
+      background-color:  rgb(1, 12, 34);      
+      color: rgb(194, 189, 189);;
+      font-weight: 700;
+      font-size: 18px;
+      -webkit-box-shadow: 4px 4px 8px 0px rgba(38, 197, 141, 0.35);
+      -moz-box-shadow: 4px 4px 8px 0px rgba(38, 197, 141, 0.35);
+      box-shadow: 4px 4px 8px 0px rgba(38, 197, 141, 0.35);    
+
+    }
+
+
+
+
+  
+    .hide{
+      display: none;
+    }
